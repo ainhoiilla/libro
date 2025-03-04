@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h1 img{
+    width: 60%;
+}
+nav{
+    
+    height: 41px;
+    background-color:#3d454a ;
+}
+
+/*Menús y submenús*/
+.dropdownmenu ul{
+    list-style: none;
+    position: absolute;
+    max-width: 100%;
+    left: 35%;
+    
+    
+}
+.dropdownmenu ul, .dropdownmenu li{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+.dropdownmenu li{
+    float:left;
+    position:relative;
+    width: auto;
+}
+
+.dropdownmenu a{
+    background-color: #3d454a;
+    color:white;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 46px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdownmenu li:hover a{
+    background-color: black;
+}
+
+
+
+/*Fin al Menú*/
+/*Sin float*/
+table{
+    height: 100vh;
+    width: 100%;
+   
+}
+
+td img{
+    width: 90%;
+    border-radius: 9%;
+}
+
+td{
+    text-align: center;
+}
+
+/*Con float*/
+
+div {
+    padding-top: 15px;
+    float: left;
+    text-align: center;
+}
+
+div img{
+    width: 260px;
+    border-radius: 9%;
+    height: 260px;
+    
+}
+div a{
+    
+    padding: 10px;
+}
+
+  

@@ -1,0 +1,121 @@
+/* Títulos */
+h1{
+    text-align: center;
+}
+h1 img{
+    width: 60%;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+/*Menús y submenús*/
+nav{
+    
+    height: 41px;
+    background-color:#3d454a ;
+}
+.dropdownmenu ul{
+    list-style: none;
+    position: absolute;
+    max-width: 100%;
+    left: 35%;
+    
+    
+}
+.dropdownmenu ul, .dropdownmenu li{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+.dropdownmenu li{
+    float:left;
+    position:relative;
+    width: auto;
+}
+
+.dropdownmenu a{
+    background-color: #3d454a;
+    color:white;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 46px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdownmenu li:hover a{
+    background-color: black;
+}
+
+
+/*Fin al Menú*/
+
+/* Estilo del contenedor principal */
+
+
+
+
+
+.partes {
+    text-align: center;
+    position: relative;
+    float:left;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    width: 400px;
+    height: 900px;
+    margin: 20px 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partes:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.partes img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: opacity 0.3s ease;
+}
+
+
+.partes:hover img {
+    opacity: 0.7;
+}
+
+
+.video, .mapa{
+  
+    float: left;
+}
+.video{
+    float: left;
+    width:560; 
+    height: 340px;
+    
+}
+.mapa img{
+    
+    width: 1000PX;
+}
